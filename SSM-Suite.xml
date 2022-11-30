@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SSM_Automation">
+	<listeners>
+		<listener class-name="com.Saviynt.Reports.TestNGCustomReportListener" />
+	 	<listener class-name="com.Saviynt.Utilities.RetryTransform" /> 
+	</listeners>
+
+	<test name="SaviyntLogin 123 chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Saviynt.Scripts.SaviyntLogin_Test" />
+		</classes>
+	</test>
+
+</suite> 
