@@ -1,11 +1,10 @@
 package com.Saviynt.Scripts;
 
-import org.apache.log4j.Priority;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
 import com.Saviynt.FunctionalLibrary.GenericMethods;
 import com.Saviynt.Pages.LoginPage;
 import com.Saviynt.Utilities.Logs;
