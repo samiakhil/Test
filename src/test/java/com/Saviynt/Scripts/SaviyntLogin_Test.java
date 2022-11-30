@@ -43,7 +43,7 @@ public class SaviyntLogin_Test extends GenericMethods {
 		elementsInitialization.loginPageObjectory();
 		
 	}
-	@Test(priority =1)
+	@Test(priority =1, enabled = true)
 	public void enterUserCredentials() throws Throwable  {
 		
 		GenericMethods.sychronizationinterval();
